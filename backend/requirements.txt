@@ -1,0 +1,68 @@
+# Core Framework
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+python-dotenv==1.0.1
+pydantic==2.6.1
+pydantic-settings==2.1.0
+
+# AI & LangChain
+langchain==0.1.9
+langchain-openai==0.0.6
+langgraph==0.0.26
+openai==1.12.0
+
+# Vector Database
+qdrant-client==1.7.3
+
+# Database
+supabase==2.22.1
+postgrest
+
+# Firebase Admin (for auth verification)
+firebase-admin==6.4.0
+
+# Document Processing
+pypdf2==3.0.1
+beautifulsoup4==4.12.3
+requests==2.31.0
+lxml==5.1.0
+unstructured==0.12.4
+
+# Embeddings (free alternative to OpenAI embeddings)
+sentence-transformers==2.3.1
+
+# Translation
+deep-translator==1.11.4
+
+# Telegram Bot (Optional - install separately if needed)
+# python-telegram-bot==20.8
+
+# Utilities
+aiohttp==3.9.3
+httpx
+tenacity==8.2.3
+tiktoken==0.6.0
+
+# Async Support
+asyncio==3.4.3
+
+# Data Validation
+validators==0.22.0
+
+# Monitoring & Logging
+loguru==0.7.2
+
+# Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# CORS
+fastapi-cors==0.0.6
+
+# Rate Limiting
+slowapi==0.1.9
+
+# Testing (optional)
+pytest==8.0.0
+pytest-asyncio==0.23.4
